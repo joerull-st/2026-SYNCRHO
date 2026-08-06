@@ -57,6 +57,118 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 <svelte:window bind:innerWidth />
 <Grid additionalClasses={"gap-y-5 px-4 md:px-6 min-[1080px]:px-0"}>
   <GridRow variant={"inline"} additionalClasses={"gap-y-5"}>
+
+    <Paragraph>
+Eight swimmers slipped below the surface of the water in unison. From the pool deck, the group looked like shadowy figures underwater. Down there in the deep end, the swimmers worked to get into position for something dramatic.
+</Paragraph>
+
+<Paragraph>
+Suddenly, one of the swimmers launched out of the water, twirled 1½ rotations in a backflip, and the show was on. 
+</Paragraph>
+
+<Paragraph>
+“Sometimes it’s scary,” Stillwater senior Hailey Schmit said of being thrown out of the water and into the air, “but it’s also really fun.” 
+</Paragraph>
+
+<Paragraph>
+This isn’t horseplay at a neighborhood pool. At Stillwater High, synchronized swimming is serious business. The state championship banners spread across the wall of the aquatic center reveal an expectation of excellence.
+</Paragraph>
+
+<Paragraph>
+The Ponies <a href="https://varsity.startribune.com/minnesota-2026-high-school-synchronized-swimming-state-invitational-results/601850071" target="_blank" rel="noreferrer" title="https://varsity.startribune.com/minnesota-2026-high-school-synchronized-swimming-state-invitational-results/601850071">claimed their sixth consecutive state championship</a> in late May.
+</Paragraph>
+
+<Paragraph>
+“These girls know there are no excuses,” longtime coach Kathy Henderson said. 
+</Paragraph>
+
+<Paragraph>
+Synchronized swimming is a nontraditional sport that has seen participation slip in Minnesota since the COVID-19 pandemic, with only 13 programs remaining statewide. Roster numbers have dwindled as well. The teams and athletes who participate are passionate advocates of a sport that requires a particular blend of skills.
+</Paragraph>
+
+<Paragraph>
+“It’s a mix of speed swimming, gymnastics, figure skating and dance,” Schmit said.
+</Paragraph>
+
+<Paragraph>
+I had never seen synchronized swimming until visiting a Ponies practice. I learned a lot, including that these swimmers devote as much time and effort to their craft as athletes in other sports.
+</Paragraph>
+
+<Paragraph>
+The older Stillwater swimmers practice four hours a day, six days a week. Most of that time is spent in the pool, rehearsing routines and refining individual skills known as “figures.” 
+</Paragraph>
+
+<Paragraph>
+Meets feature events such as solos, duets, trios and team competitions. A team can have as many as eight swimmers. The more swimmers involved in a routine, the more complicated and challenging it becomes to get everyone in sync with the choreography set to music.
+</Paragraph>
+
+<Paragraph>
+“It’s so much more interesting and more involved than just swimming laps for two-and-a-half hours straight,” said Henderson, who is in her 34th season with the program as either head coach or assistant.
+</Paragraph>
+
+<Paragraph>
+Swimmers are prohibited from touching the bottom of the pool. They stay afloat using techniques called “sculling” and “eggbeaters.” They don’t use the term “treading water.” They have cool lingo to describe certain body positions such as “fishtail,” “hook” and “tabletop.”
+</Paragraph>
+
+<Paragraph>
+Swimmers perform precise movements that resemble ballet while sometimes being upside down underwater. Routines last two to four minutes.
+</Paragraph>
+
+<Paragraph>
+“It’s physical strength, but you also have to have insane artistry and creativity and body awareness,” said Schmit, the state’s top-ranked synchronized swimmer, who will compete for the Gophers club team next season. “It’s a lot of things combined, which I feel you don’t get with a lot of sports. This allows you to express yourself more.”
+</Paragraph>
+
+<Paragraph>
+Like most of Stillwater’s older swimmers, Schmit writes her own choreography and picks music for it. The coaches help perfect their routines.
+</Paragraph>
+
+<Paragraph>
+Henderson and her assistants use a microphone to communicate with swimmers inside the noisy aquatic center. Coaches stop routines and make swimmers repeat sequences if someone is a little slow with the count or if something doesn’t look properly aligned. 
+</Paragraph>
+
+<Paragraph>
+Stamina is essential in this sport. Among other things, swimmers are judged by pool coverage. In other words, how much of the entire pool do they use in their routines? 
+</Paragraph>
+
+<Paragraph>
+The most difficult choreography takes place in the deep end. Swimmers want to get in and get out of the shallow end quickly because they can’t perform as many skills in that area.
+</Paragraph>
+
+<Paragraph>
+“You want to cram as much choreography in as you can,” Henderson said. “You want to be creative and artistic, but you also want to be strong and difficult and unique.”
+</Paragraph>
+
+<Paragraph>
+All those things are why the No. 1 trait Henderson expects of her swimmers is “mental toughness.”
+</Paragraph>
+
+<Paragraph>
+“It takes a lot to be able to make your body do crazy stuff,” she said. “Make it look pretty with a smile on your face.”
+</Paragraph>
+
+<Paragraph>
+As a team, the Ponies performed 23 routines this season of various sizes and levels of expertise. All but one of those routines qualified for the state meet, and all 22 placed in the top seven, thus earning points.
+</Paragraph>
+
+<Paragraph>
+The Ponies finished with 179 points to claim the title, well ahead of runner-up Wayzata at 90.
+</Paragraph>
+
+<Paragraph>
+Stillwater has never finished lower than second place in the five decades that Minnesota has declared a state champion. The Ponies carry that legacy every time they jump into the pool.
+</Paragraph>
+
+<Paragraph>
+“A lot of times we talk about family,” Henderson said. “These are like your sisters for 12 weeks. You’re going to fight and cry sometimes, and in the end, you’re going to fight for each other and cry for the good reasons.” 
+</Paragraph>
+
+<Paragraph>
+Hanging state championship banners every year brings those happy tears.
+</Paragraph>
+
+
+
+
     <Paragraph>
       <Dropcap dropCapLines={3}>L</Dropcap>orem ipsum dolor sit amet consectetur
       adipisicing elit.
@@ -114,6 +226,12 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
       ratione laborum ab omnis quibusdam, accusamus vel eum culpa repellendus
       exercitationem. Fugit, consequatur!</Paragraph
     >
+
+
+
+
+
+
   </GridRow>
 
   <GridRow variant={isMobile ? "fullBleed" : "inline"}>
