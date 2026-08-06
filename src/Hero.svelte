@@ -52,7 +52,7 @@
             <h1
               class="ml-0 mr-auto text-shadow-lg text-left font-[publico-headline-banner] xl:text-[3.5rem] lg:text-[3.5rem] md:text-[2.85rem] xs:text-[1.75rem] p-4 !leading-[1.2]"
             >
-              How Stillwater synchronized swimming<br />
+              Test commitHow Stillwater synchronized swimming<br />
               dominates Minnesota year after year
             </h1>
           </div>
