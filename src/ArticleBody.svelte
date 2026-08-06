@@ -166,35 +166,9 @@ Stillwater has never finished lower than second place in the five decades that M
 Hanging state championship banners every year brings those happy tears.
 </Paragraph>
 
-
-
-
-    <Paragraph>
-      <Dropcap dropCapLines={3}>L</Dropcap>orem ipsum dolor sit amet consectetur
-      adipisicing elit.
-      <a href="https://www.startribune.com/" target="_blank" rel="noreferrer"
-        >Debitis quas</a
-      >, facilis itaque minus totam repudiandae magnam esse asperiores
-      temporibus sed laborum nisi ut corporis ab officiis dolorum odio, porro
-      eveniet. Quis quaerat tempore adipisci nostrum quia non.</Paragraph
-    >
-
-    <Paragraph
-      >Voluptate molestiae, perferendis iusto dolor officiis eaque cum quisquam
-      quidem, doloremque dicta temporibus fuga ducimus voluptatum excepturi
-      ratione laborum ab omnis quibusdam, accusamus vel eum culpa repellendus
-      exercitationem. Fugit, consequatur!</Paragraph
-    >
-
-    <Paragraph
-      >Voluptate molestiae, perferendis iusto dolor officiis eaque cum quisquam
-      quidem, doloremque dicta temporibus fuga ducimus voluptatum excepturi
-      ratione laborum ab omnis quibusdam, accusamus vel eum culpa repellendus
-      exercitationem. Fugit, consequatur!</Paragraph
-    >
   </GridRow>
 
-  <GridRow>
+  <!-- <GridRow>
     <Counter
       count={globalState.count}
       handleIncrement={() => {
@@ -217,9 +191,9 @@ Hanging state championship banners every year brings those happy tears.
       alt="Descriptive alt text"
       caption="Caption tk tk tk"
     />
-  </GridRow>
+  </GridRow> -->
 
-  <GridRow variant="inline">
+  <!-- <GridRow variant="inline">
     <Paragraph
       >Voluptate molestiae, perferendis iusto dolor officiis eaque cum quisquam
       quidem, doloremque dicta temporibus fuga ducimus voluptatum excepturi
@@ -240,9 +214,9 @@ Hanging state championship banners every year brings those happy tears.
       alt="Descriptive alt text"
       caption="Caption tk tk tk"
     />
-  </GridRow>
+  </GridRow> -->
 
-  <GridRow variant={"fullBleed"}>
+  <!-- <GridRow variant={"fullBleed"}>
     <ScrollySection
       data={[
         {
@@ -282,8 +256,8 @@ Hanging state championship banners every year brings those happy tears.
         },
       ]}
     />
-  </GridRow>
-
+  </GridRow> -->
+<!-- 
   <GridRow variant="inline" additionalClasses={"gap-y-5"}>
     <Subhead>Subhead</Subhead>
 
@@ -291,11 +265,11 @@ Hanging state championship banners every year brings those happy tears.
       >Quis quaerat tempore adipisci nostrum quia non. Provident, eum! Non quam
       suscipit omnis asperiores cupiditate, a eos, aliquid libero, reprehenderit
       rerum excepturi ex. Eius perferendis rem fugit nostrum eveniet magnam.</Paragraph
-    >
+    > -->
 
     <!-- Native <video> Video component (replaces JW Player). Build-time-resolved
          clip JSON spread in; inline variant keeps the minimal-UX overlay. -->
-    <Video
+    <!-- <Video
       {...videos.find((v) => v.uuid === "ca87479d-8b16-4f7b-94e3-be0a28b72be0")}
       credit="Video by the Minnesota Star Tribune"
       variant="inline"
@@ -320,7 +294,7 @@ Hanging state championship banners every year brings those happy tears.
       alt="Descriptive alt text"
       caption="Caption tk tk tk"
     />
-  </GridRow>
+  </GridRow> -->
 </Grid>
 
 <style>
