@@ -1,3 +1,115 @@
+<script>
+  import { globalState } from "./state.svelte.js";
+
+  import Grid from "./components/Grid/Grid.svelte";
+  import GridRow from "./components/Grid/_GridRow.svelte";
+  import SectionLabel from "./components/Hero/_SectionLabel.svelte";
+  import Headline from "./components/Hero/_Headline.svelte";
+  import Timestamp from "./components/Hero/_Timestamp.svelte";
+  import Image from "./components/Image/Image.svelte";
+  import Dek from "./components/Hero/_Dek.svelte";
+  import Byline from "./components/Hero/_Byline.svelte";
+  import Counter from "./components/Counter/Counter.svelte";
+
+  /** @type {{sectionLabel?: string; headline?: string; timestamp?: string; heroImageUrl?: string; heroImageCaption?: string; heroImageAltText?: string; dek?: string; authorName?: string; authorBioUrl?: string;}} */
+  let {
+    sectionLabel = "Section label",
+    headline = "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+    timestamp = "December 1, 1977",
+    heroImageUrl = "https://arc.stimg.co/startribunemedia/4SPNT7DI36ANT2SOB5N5EJAIJU.jpg",
+    heroImageCaption = "Lorem ipsum dolor",
+    heroImageAltText = "",
+    dek = "Lorem ipsum dolor sit amet consectetur adipiscing elit, fusce sociis at montes vitae tempor enim, venenatis tristique feugiat arcu dis ridiculus.",
+    authorName = "Bryan Brussee",
+    authorBioUrl = "",
+  } = $props();
+</script>
+
+<Grid additionalClasses="gap-y-0 md:gap-y-0">
+  <GridRow variant={"fullBleed"} additionalClasses="xs:bg-[#022503] md:bg-none">
+    <div
+      class="relative flex items-center justify-center h-screen mb-4 overflow-hidden bg-[white] xl:max-h-[1000px] lg:max-h-[900px] md:max-h-[800px] xs:max-h-[650px]"
+    >
+      <!-- DESKTOP DISP TYPE -->
+
+      <div
+        class="md:block xs:hidden absolute left-2 bottom-0 w-full xs:top-2 z-30 text-white"
+      >
+        <div class="flex mb-4 absolute left-4 bottom-2 w-full">
+          <div class="w-full pr-2">
+            <h1
+              class="ml-0 mr-auto text-shadow-lg text-left font-[publico-headline-banner] xl:text-[3.5rem] lg:text-[3.5rem] md:text-[2.85rem] xs:text-[1.75rem] p-4 !leading-[1.2]"
+            >
+              How Stillwater synchronized swimming<br>
+              dominates Minnesota year after year
+            </h1>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- autoplay="" loop="" muted="true" -->
+      <video
+        autoplay
+        muted
+        playsinline
+        loop
+        class="object-cover object-center absolute h-full w-full"
+      >
+        <source
+          src="https://d2rhwptr68oefh.cloudfront.net/wp-startribunemedia/20260806/6a74ae4aa9371f6ec4a66182/t_cf0f44585925456d9da8e4f9595f58bc_name_NEW_HERO_SWIM/file_1920x1080-5400-v4.mp4"
+          type="video/mp4"
+        />Your browser does not support the video tag.
+      </video>
+    </div>
+  </GridRow>
+  <GridRow>
+    <!-- MOBILE DISP TYPE -->
+    <div
+      class="md:hidden xs:block !text-[black] text-left bg-[#022503] !text-white pt-4 pb-4 mt-[-5px]"
+    >
+      <h1
+        class="max-w-[450px] mx-auto text-center font-[publico-headline-banner] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[2.55rem] pb-10 px-4 !leading-[1.05]"
+      >
+              How Stillwater synchronized swimming<br>
+              dominates Minnesota year after year
+      </h1>
+      <h2
+        class="max-w-[350px] mx-auto text-center font-[publico-headline-light] xl:text-[1.75rem] lg:text-[1.5rem] md:text-[1.25rem] xs:text-[1.25rem] pb-6 px-4 !leading-[1.2]"
+      >
+One of Minnesota’s most dominant athletic programs can be found in the deep end of the pool.
+      </h2>
+
+      <!-- <div class="font-[graphik] text-[14px] mx-auto text-center pl-4 h-[20px]">
+By <b>Jana Hollingsworth</b>
+</div>
+<div class="font-[graphik] text-[14px] mx-auto text-center pl-4 h-[20px]">
+Photo and video by <b>Amanda Anderson</b>
+</div>
+<div class="font-[graphik] text-[14px] mx-auto text-center pl-4 h-[20px]">
+The Minnesota Star Tribune
+</div>
+<div class="font-[graphik] text-[12px] mx-auto text-center pt-4 pl-4 tracking-[4px] uppercase">
+May 22, 2026
+</div> -->
+    </div>
+</GridRow>
+
+    <GridRow variant={"inline"} additionalClasses="justify-self-left md:max-w-[550px] mx-auto !lg:text-center lg:max-w-[712px] xs:hidden md:block">
+
+            
+            <Dek>
+            <h2
+              class=" mr-auto ml-0 text-center font-[publico-headline-banner] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.5rem] xs:text-[1.15rem] pt-8 pb-0 !leading-[1.2]"
+            >
+One of Minnesota’s most dominant athletic programs can be found in the deep end of the pool.
+            </h2></Dek>
+</GridRow>
+
+</Grid>
+
 <!--
 @component
 ### Hero component 
@@ -29,89 +141,17 @@ Renders a visual replica of the Immersive Template hero.
 >
 ```
 -->
-
-<script>
-  import { globalState } from "./state.svelte.js";
-
-  import Grid from "./components/Grid/Grid.svelte";
-  import GridRow from "./components/Grid/_GridRow.svelte";
-  import SectionLabel from "./components/Hero/_SectionLabel.svelte";
-  import Headline from "./components/Hero/_Headline.svelte";
-  import Timestamp from "./components/Hero/_Timestamp.svelte";
-  import Image from "./components/Image/Image.svelte";
-  import Dek from "./components/Hero/_Dek.svelte";
-  import Byline from "./components/Hero/_Byline.svelte";
-  import Counter from "./components/Counter/Counter.svelte";
-
-  /** @type {{sectionLabel?: string; headline?: string; timestamp?: string; heroImageUrl?: string; heroImageCaption?: string; heroImageAltText?: string; dek?: string; authorName?: string; authorBioUrl?: string;}} */
-  let {
-    sectionLabel = "Section label",
-    headline = "Lorem ipsum dolor sit amet consectetur adipiscing elit",
-    timestamp = "December 1, 1977",
-    heroImageUrl = "https://arc.stimg.co/startribunemedia/4SPNT7DI36ANT2SOB5N5EJAIJU.jpg",
-    heroImageCaption = "Lorem ipsum dolor",
-    heroImageAltText = "",
-    dek = "Lorem ipsum dolor sit amet consectetur adipiscing elit, fusce sociis at montes vitae tempor enim, venenatis tristique feugiat arcu dis ridiculus.",
-    authorName = "Bryan Brussee",
-    authorBioUrl = "",
-  } = $props();
-</script>
-
-<Grid additionalClasses="gap-y-8 md:gap-y-10 px-4 md:px-6 min-[1080px]:px-0">
-  <GridRow>
-    <div class="flex justify-center my-6">
-      <SectionLabel>{sectionLabel}</SectionLabel>
-    </div>
-    <div class="flex flex-col gap-y-6 md:gap-y-8 text-center">
-      <Headline>{headline}</Headline>
-      <Timestamp>{timestamp}</Timestamp>
-    </div>
-  </GridRow>
-
-  {#if heroImageUrl}
-    <GridRow variant={"fullBleed"}>
-      <Image
-        variant={"captionCentered"}
-        src={heroImageUrl}
-        alt={heroImageAltText}
-        caption={heroImageCaption}
-        additionalClasses="pt-0!"
-      />
-    </GridRow>
-  {/if}
-
-  <GridRow>
-    <Counter
-      count={globalState.count}
-      handleIncrement={() => {
-        globalState.count++;
-      }}
-      handleDecrement={() => {
-        globalState.count--;
-      }}
-    />
-  </GridRow>
-
-  <GridRow
-    additionalClasses="justify-self-center md:max-w-[535px] md:text-center lg:max-w-[712px]"
-  >
-    <div class="flex flex-col gap-y-5 md:justify-items-center md:items-center">
-      <Dek>
-        {dek}
-      </Dek>
-      <div class="flex items-center w-full gap-x-2 md:justify-center">
-        <div class="flex flex-col gap-y-0.5 gap-x-1 md:flex-row">
-          {#if authorName}
-            <div class="flex">
-              <Byline href={authorBioUrl}>By {authorName}</Byline>
-            </div>
-          {/if}
-
-          <span class="text-text-secondary font-utility-label-reg-02">
-            The Minnesota Star Tribune
-          </span>
-        </div>
-      </div>
-    </div>
-  </GridRow>
-</Grid>
+<style>
+  @font-face {
+    font-family: publico-headline-banner;
+    src: url("https://static.startribune.com/fonts/PublicoBannerWebFonts/PublicoBanner-Roman-Web.woff2")
+      format("woff2");
+    font-style: normal;
+    font-display: swap;
+  }
+  h1.font-editorial-news-heading-01,
+  h1.font-editorial-enterprise-heading-01 {
+    font-family: publico-headline-banner;
+    font-weight: normal;
+  }
+</style>
