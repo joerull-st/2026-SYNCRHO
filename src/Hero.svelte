@@ -44,20 +44,20 @@
     >
       <!-- DESKTOP DISP TYPE -->
 
-      <div
+      <!-- <div
         class="md:block xs:hidden absolute left-2 bottom-0 w-full xs:top-2 z-30 text-white"
       >
         <div class="flex mb-4 absolute left-4 bottom-2 w-full">
           <div class="w-full pr-2">
             <h1
-              class="ml-0 mr-auto text-shadow-lg text-left font-[publico-headline-banner] xl:text-[3.5rem] lg:text-[3.5rem] md:text-[2.75rem] xs:text-[1.75rem] p-4 !leading-[1.2]"
+              class="ml-0 mr-auto text-shadow-lg/30 text-left font-[publico-banner-black] xl:text-[3.5rem] lg:text-[3.5rem] md:text-[2.75rem] xs:text-[1.75rem] p-4 !leading-[1.2]"
             >
               How Stillwater synchronized swimming<br />
               dominates Minnesota year after year
             </h1>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- autoplay="" loop="" muted="true" -->
       <video
@@ -93,7 +93,7 @@
       class="md:hidden xs:block !text-[black] text-left bg-[#00316d] !text-white pt-4 pb-4 mt-[-5px]"
     >
       <h1
-        class="max-w-[450px] mx-auto text-center font-[publico-headline-banner] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[2rem] pb-10 px-4 !leading-[1.05]"
+        class="max-w-[450px] mx-auto text-center font-[publico-banner-black] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[2rem] pb-10 px-4 !leading-[1.05]"
       >
         How Stillwater synchronized swimming
         dominates Minnesota year after year
@@ -121,15 +121,22 @@ May 22, 2026
   </GridRow>
 
   <GridRow
-    variant={'inline'}
-    additionalClasses="justify-self-left md:max-w-[550px] mx-auto !lg:text-center lg:max-w-[712px] xs:hidden md:block"
+    additionalClasses="xs:hidden md:block"
   >
+              <h1
+              class="ml-0 mr-auto text-center font-[publico-banner-black] xl:text-[2.9rem] lg:text-[2.6rem] md:text-[2.6rem] xs:text-[1.75rem] !leading-[1.2] pt-6"
+            >
+              How Stillwater<br>synchronized
+              swimming<br>dominates Minnesota<br>
+              year after year
+            </h1>
     <Dek>
       <h2
-        class=" mr-auto ml-0 text-left font-[publico-headline-banner] xl:text-[1.95rem] lg:text-[1.95rem] md:text-[1.95rem] xs:text-[1.15rem] pt-12 pb-0 !leading-[1.2]"
+        class=" mr-auto ml-0 text-center font-[publico-headline-banner] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.5rem] xs:text-[1.15rem] pt-4 pb-8 !leading-[1.2] pt-6 pb-4"
       >
-        One of Minnesota’s most dominant athletic programs can be found in the
-        deep end of the pool.
+        One of Minnesota’s most dominant<br>
+        athletic programs can be found in<br>
+        the deep end of the pool.
       </h2></Dek
     >
   </GridRow>

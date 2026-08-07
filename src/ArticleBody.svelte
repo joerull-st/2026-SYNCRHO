@@ -64,7 +64,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
               <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] xs:text-left md:text-left text-text-primary relative pb-2">Photos and video by <a href="https://www.startribune.com/author/anthony-souffle/600335199" >Anthony Soufflé</a></p>
             </div> 
             
-            <span class="rt-Text text-text-secondary !text-left font-utility-label-reg-02 mb-1 !text-[.875rem]">The Minnesota Star Tribune</span> <span class="!text-[#666666]  !text-[.75rem] tracking-[1px] !text-left rt-Text font-utility-label-reg-caps-03 text-text-secondary mb-6">August 8, 2026</span>
+            <span class="rt-Text text-text-secondary !text-left font-utility-label-reg-02 mb-1 !text-[.875rem]">The Minnesota Star Tribune</span> <span class="!text-[#666666]  !text-[.75rem] tracking-[1px] !text-left rt-Text font-utility-label-reg-caps-03 text-text-secondary mb-2">August 8, 2026</span>
     </GridRow>
 
 
