@@ -66,7 +66,7 @@
         muted={isMuted}
         playsinline
         loop
-        class="object-cover object-left absolute h-full w-full"
+        class="object-cover object-[25%_75%] absolute h-full w-full"
       >
         <source
           src="https://d2rhwptr68oefh.cloudfront.net/wp-startribunemedia/20260806/6a74ae4aa9371f6ec4a66182/t_1cd8802a418b43de9208f19d97731e8b_name_SYNCHRO_HERO_FINAL/file_1920x1080-5400-v4.mp4"
@@ -93,13 +93,13 @@
       class="md:hidden xs:block !text-[black] text-left bg-[#00316d] !text-white pt-4 pb-4 mt-[-5px]"
     >
       <h1
-        class="max-w-[450px] mx-auto text-center font-[publico-banner-black] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[2rem] pb-10 px-4 !leading-[1.05]"
+        class="max-w-[450px] mx-auto text-center font-[publico-banner-black] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[1.75rem] pb-6 px-4 !leading-[1.05]"
       >
               Below the surface of Stillwater’s
               synchronized swimming dynasty
       </h1>
       <h2
-        class="max-w-[350px] mx-auto text-center font-[publico-headline-light] xl:text-[1.75rem] lg:text-[1.5rem] md:text-[1.25rem] xs:text-[1.35rem] pb-6 px-4 !leading-[1.2]"
+        class="max-w-[350px] mx-auto text-center font-[publico-headline-light] xl:text-[1.75rem] lg:text-[1.5rem] md:text-[1.25rem] xs:text-[1.25rem] pb-6 px-4 !leading-[1.2]"
       >
         One of Minnesota’s most dominant athletic programs can be found in the
         deep end of the pool.
