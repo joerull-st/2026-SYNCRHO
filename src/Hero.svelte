@@ -38,7 +38,7 @@
 </script>
 
 <Grid additionalClasses="gap-y-0 md:gap-y-0">
-  <GridRow variant={'fullBleed'} additionalClasses="xs:bg-[#00316d] md:bg-none">
+  <GridRow variant={'fullBleed'} additionalClasses="xs:bg-[#a7d1ff] md:bg-none">
     <div
       class="relative flex items-center justify-center h-screen mb-4 overflow-hidden bg-[white] xl:max-h-[1000px] lg:max-h-[900px] md:max-h-[800px] xs:max-h-[650px]"
     >
@@ -90,8 +90,11 @@
   <GridRow>
     <!-- MOBILE DISP TYPE -->
     <div
-      class="md:hidden xs:block !text-[black] text-left bg-[#00316d] !text-white pt-4 pb-4 mt-[-5px]"
+      class="md:hidden xs:block !text-[black] text-left bg-[#a7d1ff] !text-black pt-4 pb-4 mt-[-5px]"
     >
+        <div class="flex justify-center mt-4 mb-2 !text-[white]">
+      <SectionLabel><a href="https://varsity.startribune.com/">Strib Varsity</a></SectionLabel>
+    </div>
       <h1
         class="max-w-[450px] mx-auto text-center font-[publico-banner-black] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[1.75rem] pb-6 px-4 !leading-[1.05]"
       >
@@ -123,8 +126,11 @@ May 22, 2026
   <GridRow 
     additionalClasses="xs:hidden md:block"
   >
+      <div class="flex justify-center mt-10">
+      <SectionLabel><a href="https://varsity.startribune.com/">Strib Varsity</a></SectionLabel>
+    </div>
               <h1
-              class="text-center font-[publico-banner-black] xl:text-[2.9rem] lg:text-[2.6rem] md:text-[2.6rem] xs:text-[1.75rem] !leading-[1.2] pt-10 max-w-[750px] mx-auto"
+              class="text-center font-[publico-banner-black] xl:text-[2.9rem] lg:text-[2.6rem] md:text-[2.6rem] xs:text-[1.75rem] !leading-[1.2] pt-2 max-w-[750px] mx-auto"
             >
               Below the surface of Stillwater’s
               synchronized swimming dynasty
