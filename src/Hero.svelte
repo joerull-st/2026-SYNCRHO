@@ -50,7 +50,7 @@
         <div class="flex mb-4 absolute left-4 bottom-2 w-full">
           <div class="w-full pr-2">
             <h1
-              class="ml-0 mr-auto text-shadow-lg text-left font-[publico-headline-banner] xl:text-[3.5rem] lg:text-[3.5rem] md:text-[2.85rem] xs:text-[1.75rem] p-4 !leading-[1.2]"
+              class="ml-0 mr-auto text-shadow-lg text-left font-[publico-headline-banner] xl:text-[3.5rem] lg:text-[3.5rem] md:text-[2.75rem] xs:text-[1.75rem] p-4 !leading-[1.2]"
             >
               How Stillwater synchronized swimming<br />
               dominates Minnesota year after year
@@ -66,7 +66,7 @@
         muted={isMuted}
         playsinline
         loop
-        class="object-cover object-center absolute h-full w-full"
+        class="object-cover object-left absolute h-full w-full"
       >
         <source
           src="https://d2rhwptr68oefh.cloudfront.net/wp-startribunemedia/20260806/6a74ae4aa9371f6ec4a66182/t_ecfc70d28bc14ca18b930cc36f3a890f_name_SYNCHRO_muted/file_1920x1080-5400-v4.mp4"

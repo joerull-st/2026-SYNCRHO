@@ -42,24 +42,104 @@ Swiper galleries will not loop correctly across all viewports if they contain fe
   let {
     imgs = [
       {
-        src: "https://placehold.co/1080x720",
-        caption: "Caption 1 tk tk tk",
-        alt: "A grey placeholder image with white centered text that reads '1080x720' to denote the placeholder's pixel dimensions.",
+        src: "https://arc.stimg.co/startribunemedia/ROUBZPJJ7BFF5BEK7PUHUDLENA.jpg",
+        caption: "Stillwater Area High School synchronized swimmers practice their extended group routine on the pool deck on April 14, at Stillwater Middle School.",
+        alt: "Stillwater Area High School synchronized swimmers practice their extended group routine on the pool deck on April 14, at Stillwater Middle School.",
       },
       {
-        src: "https://placehold.co/405x720",
-        caption: "Caption 2 tk tk tk",
-        alt: "A grey placeholder image with white centered text that reads '405x720' to denote the placeholder's pixel dimensions.",
+        src: "https://arc.stimg.co/startribunemedia/WZX7QIEOKVAFHMWCR2OWDD23PQ.jpg",
+        caption: "Stillwater Area High School synchronized swimming coaches Kathy Henderson and Juliet Schmit leads their team through a workout on March 24, during practice at Stillwater Middle School.",
+        alt: "Stillwater Area High School synchronized swimming coaches Kathy Henderson and Juliet Schmit leads their team through a workout on March 24, during practice at Stillwater Middle School.",
       },
       {
-        src: "https://placehold.co/720x720",
-        caption: "Caption 3 tk tk tk",
-        alt: "A grey placeholder image with white centered text that reads '720x720' to denote the placeholder's pixel dimensions.",
+        src: "https://arc.stimg.co/startribunemedia/2KF4G2CLYBBUDCAYPPMZSGZNAA.jpg",
+        caption: "Stillwater Area High School synchronized swimming assistant coach Juliet Schmit talks with swimmer Audrey Funk as she warms up ahead of their first home meet on March 31, at Stillwater Middle School.",
+        alt: "Stillwater Area High School synchronized swimming assistant coach Juliet Schmit talks with swimmer Audrey Funk as she warms up ahead of their first home meet on March 31, at Stillwater Middle School.",
       },
       {
-        src: "https://placehold.co/1080x540",
-        caption: "Caption 4 tk tk tk",
-        alt: "A grey placeholder image with white centered text that reads '1080x540' to denote the placeholder's pixel dimensions.",
+        src: "https://arc.stimg.co/startribunemedia/LJTLYNUOABBDLDNQMZBMZFSJI4.jpg",
+        caption: "Stillwater Area High School synchronized swimmer Sienna Cruz is lifted out of the water by her teammates during practice.",
+        alt: "Stillwater Area High School synchronized swimmer Sienna Cruz is lifted out of the water by her teammates during practice.",
+      },
+            {
+        src: "https://arc.stimg.co/startribunemedia/RQUS5XAVGZCBDLW3XLSFFJUZAA.jpg",
+        caption: "Captain Hailey Schmit warms up with the team ahead of practice.",
+        alt: "Captain Hailey Schmit warms up with the team ahead of practice.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/V2LVEXOZ2ZCMPDO6XQ7GEIKCBI.jpg",
+        caption: "Stillwater Area High School synchronized swimmers practice their extended group routine.",
+        alt: "Stillwater Area High School synchronized swimmers practice their extended group routine.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/X3RCG7ZPU5E3NN7T7RJ4X7I4MU.jpg",
+        caption: "Stillwater Area High School synchronized swimmers practice their lifts while they are prohibited from touching the bottom of the pool.",
+        alt: "Stillwater Area High School synchronized swimmers practice their lifts while they are prohibited from touching the bottom of the pool.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/WKINUSPKGJHMDNOFHGXZMKVDIE.jpg",
+        caption: "Stillwater Area High School synchronized swimmers go over video from their extended group routine with assistant coaches Juliet Schmit and Paige Schmit.",
+        alt: "Stillwater Area High School synchronized swimmers go over video from their extended group routine with assistant coaches Juliet Schmit and Paige Schmit.",
+      },
+            {
+        src: "https://arc.stimg.co/startribunemedia/YIUGYBO3LBCHJMHVSE4IAIEXQE.jpg",
+        caption: "Stillwater Area High School synchronized swimmers compete in a home meet on April 23, at Stillwater Middle School.",
+        alt: "Stillwater Area High School synchronized swimmers compete in a home meet on April 23, at Stillwater Middle School.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/UAJ2UHGNB5EKBL2INVB3HKVLRA.jpg",
+        caption: "Stillwater Area High School synchronized swimmers compete in a home meet.",
+        alt: "Stillwater Area High School synchronized swimmers compete in a home meet.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/LWD46STB45CANP2B2H4VDV45DY.jpg",
+        caption: "Stillwater Area High School synchronized swimmers compete in a home meet.",
+        alt: "Stillwater Area High School synchronized swimmers compete in a home meet.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/G7Y25RRGS5CZROO3YN5QFPHWWU.jpg",
+        caption: "Stillwater Area High School synchronized swimmers compete in a home meet.",
+        alt: "Stillwater Area High School synchronized swimmers compete in a home meet.",
+      },
+            {
+        src: "https://arc.stimg.co/startribunemedia/2HL6UY6BF5BNJNAXR3I5YPZTSQ.jpg",
+        caption: "Stillwater Area High School synchronized swimmers cheer on teammates at a home meet.",
+        alt: "Stillwater Area High School synchronized swimmers cheer on teammates at a home meet.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/BRYYWR3PMRCKHDR76GASDNMPBQ.jpg",
+        caption: "Stillwater Area High School synchronized swimming captain Hailey Schmit competes in a home meet.",
+        alt: "Stillwater Area High School synchronized swimming captain Hailey Schmit competes in a home meet.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/CC6CI556UNFXPAHRQVRRNOSROU.jpg",
+        caption: "Stillwater Area High School synchronized swimmers laugh together after competing in a home meet.",
+        alt: "Stillwater Area High School synchronized swimmers laugh together after competing in a home meet.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/3R554EM3RBGI5JC4F2E2WRTNJY.jpg",
+        caption: "Teammates help each other with their hair, preparing for the Synchronized Swimming State Invitational.",
+        alt: "Teammates help each other with their hair, preparing for the Synchronized Swimming State Invitational.",
+      },
+            {
+        src: "https://arc.stimg.co/startribunemedia/HEWGC4H4MJBBPBHHVPIXIB77F4.jpg",
+        caption: "Stillwater Area High School synchronized swimmers compete in the Synchronized Swimming State Invitational.",
+        alt: "Stillwater Area High School synchronized swimmers compete in the Synchronized Swimming State Invitational.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/E6Q7V4RMGNHPLFUXG4K4NMPBPU.jpg",
+        caption: "Stillwater Area High School synchronized swimmers lift captain Hailey Schmit into the air as they compete in the Synchronized Swimming State Invitational.",
+        alt: "Stillwater Area High School synchronized swimmers lift captain Hailey Schmit into the air as they compete in the Synchronized Swimming State Invitational.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/NPRDJTSSWBHG5GXUOFOBGOQJ6Y.jpg",
+        caption: "Stillwater Area High School synchronized swimmers compete in the Synchronized Swimming State Invitational.",
+        alt: "Stillwater Area High School synchronized swimmers compete in the Synchronized Swimming State Invitational.",
+      },
+      {
+        src: "https://arc.stimg.co/startribunemedia/BVVDN25LKRHQ3MBPZH6TTLMIWU.jpg",
+        caption: "Stillwater Area High School synchronized swimmers including captain Hailey Schmit, center, hoist their first place trophy into the air after winning the Synchronized Swimming State Invitational on May 22.",
+        alt: "Stillwater Area High School synchronized swimmers including captain Hailey Schmit, center, hoist their first place trophy into the air after winning the Synchronized Swimming State Invitational on May 22.",
       },
     ],
   } = $props();

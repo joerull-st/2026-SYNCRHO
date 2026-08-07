@@ -60,7 +60,7 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 <GridRow variant={"inline"}>
 
             <div class="">
-              <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] xs:text-left md:text-left text-text-primary relative md:pt-0 xs:pt-4 ">By <a href="https://www.startribune.com/author/chip-scoggins/6370598" >Chip Scoggins</a></p>
+              <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] xs:text-left md:text-left text-text-primary relative md:pt-0 xs:pt-8 ">By <a href="https://www.startribune.com/author/chip-scoggins/6370598" >Chip Scoggins</a></p>
               <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] xs:text-left md:text-left text-text-primary relative pb-2">Photos and video by <a href="https://www.startribune.com/author/anthony-souffle/600335199" >Anthony Soufflé</a></p>
             </div> 
             
