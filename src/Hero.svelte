@@ -38,7 +38,7 @@
 </script>
 
 <Grid additionalClasses="gap-y-0 md:gap-y-0">
-  <GridRow variant={'fullBleed'} additionalClasses="xs:bg-[#022503] md:bg-none">
+  <GridRow variant={'fullBleed'} additionalClasses="xs:bg-[#00316d] md:bg-none">
     <div
       class="relative flex items-center justify-center h-screen mb-4 overflow-hidden bg-[white] xl:max-h-[1000px] lg:max-h-[900px] md:max-h-[800px] xs:max-h-[650px]"
     >
@@ -90,16 +90,16 @@
   <GridRow>
     <!-- MOBILE DISP TYPE -->
     <div
-      class="md:hidden xs:block !text-[black] text-left bg-[#022503] !text-white pt-4 pb-4 mt-[-5px]"
+      class="md:hidden xs:block !text-[black] text-left bg-[#00316d] !text-white pt-4 pb-4 mt-[-5px]"
     >
       <h1
-        class="max-w-[450px] mx-auto text-center font-[publico-headline-banner] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[2.55rem] pb-10 px-4 !leading-[1.05]"
+        class="max-w-[450px] mx-auto text-center font-[publico-headline-banner] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[2rem] pb-10 px-4 !leading-[1.05]"
       >
-        How Stillwater synchronized swimming<br />
+        How Stillwater synchronized swimming
         dominates Minnesota year after year
       </h1>
       <h2
-        class="max-w-[350px] mx-auto text-center font-[publico-headline-light] xl:text-[1.75rem] lg:text-[1.5rem] md:text-[1.25rem] xs:text-[1.25rem] pb-6 px-4 !leading-[1.2]"
+        class="max-w-[350px] mx-auto text-center font-[publico-headline-light] xl:text-[1.75rem] lg:text-[1.5rem] md:text-[1.25rem] xs:text-[1.35rem] pb-6 px-4 !leading-[1.2]"
       >
         One of Minnesota’s most dominant athletic programs can be found in the
         deep end of the pool.
@@ -126,7 +126,7 @@ May 22, 2026
   >
     <Dek>
       <h2
-        class=" mr-auto ml-0 text-center font-[publico-headline-banner] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.5rem] xs:text-[1.15rem] pt-8 pb-0 !leading-[1.2]"
+        class=" mr-auto ml-0 text-left font-[publico-headline-banner] xl:text-[1.95rem] lg:text-[1.95rem] md:text-[1.95rem] xs:text-[1.15rem] pt-12 pb-0 !leading-[1.2]"
       >
         One of Minnesota’s most dominant athletic programs can be found in the
         deep end of the pool.

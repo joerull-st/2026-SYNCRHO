@@ -56,6 +56,20 @@ The following example uses a ternary to render an image edge-to-edge on mobile b
 
 <svelte:window bind:innerWidth />
 <Grid additionalClasses={"gap-y-5 px-4 md:px-6 min-[1080px]:px-0"}>
+
+<GridRow variant={"inline"}>
+
+            <div class="">
+              <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] xs:text-left md:text-left text-text-primary relative md:pt-0 xs:pt-4 ">By <a href="https://www.startribune.com/author/chip-scoggins/6370598" >Chip Scoggins</a></p>
+              <p class="rt-Text !text-[.875rem] !font-[graphik-semibold] xs:text-left md:text-left text-text-primary relative pb-2">Photos and video by <a href="https://www.startribune.com/author/anthony-souffle/600335199" >Anthony Soufflé</a></p>
+            </div> 
+            
+            <span class="rt-Text text-text-secondary !text-left font-utility-label-reg-02 mb-1 !text-[.875rem]">The Minnesota Star Tribune</span> <span class="!text-[#666666]  !text-[.75rem] tracking-[1px] !text-left rt-Text font-utility-label-reg-caps-03 text-text-secondary mb-6">August 8, 2026</span>
+    </GridRow>
+
+
+
+  
   <GridRow variant={"inline"} additionalClasses={"gap-y-5"}>
 
     <Paragraph>
@@ -69,6 +83,25 @@ Suddenly, one of the swimmers launched out of the water, twirled 1½ rotations i
 <Paragraph>
 “Sometimes it’s scary,” Stillwater senior Hailey Schmit said of being thrown out of the water and into the air, “but it’s also really fun.” 
 </Paragraph>
+
+</GridRow>
+    <GridRow variant={"fullBleed"}>
+            <div class="md:!max-w-6xl mt-8 mb-8 mx-auto">
+                <div class="md:flex">
+                    <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
+                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/LGJ44HK47VGSBL7MGRKZ7DSUS4.jpg?&amp;w=1080');">
+                        </div>
+                    </div>
+                    <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
+                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/C3QGFOAQ5JCGLNERSYKRJ63HJE.jpg?&amp;w=1080');">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-screen mx-auto max-w-[1800px] !max-w-6xl gap-y-5 pt-2 pb-4"><img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/U3XAUECZZVHS5DUZLLZLOZSLDI.jpg?&amp;w=1080" style="color: transparent;">
+                <div class="!text-[#080808] font-utility-meta-reg-02 text-text-tertiary text-center mx-auto pt-4" style="max-width: 650px !important;">GROUP CAPTION 1</div>
+            </div>
+</GridRow>
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pb-8"}>
 
 <Paragraph>
 This isn’t horseplay at a neighborhood pool. At Stillwater High, synchronized swimming is serious business. The state championship banners spread across the wall of the aquatic center reveal an expectation of excellence.
@@ -109,6 +142,18 @@ Meets feature events such as solos, duets, trios and team competitions. A team c
 <Paragraph>
 Swimmers are prohibited from touching the bottom of the pool. They stay afloat using techniques called “sculling” and “eggbeaters.” They don’t use the term “treading water.” They have cool lingo to describe certain body positions such as “fishtail,” “hook” and “tabletop.”
 </Paragraph>
+
+
+
+
+  </GridRow>
+    <GridRow variant="fullBleed">
+    <Gallery />
+  </GridRow>
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pb-8"}>
+
+
+
 
 <Paragraph>
 Swimmers perform precise movements that resemble ballet while sometimes being upside down underwater. Routines last two to four minutes.
@@ -157,6 +202,26 @@ The Ponies finished with 179 points to claim the title, well ahead of runner-up 
 <Paragraph>
 Stillwater has never finished lower than second place in the five decades that Minnesota has declared a state champion. The Ponies carry that legacy every time they jump into the pool.
 </Paragraph>
+
+</GridRow>
+    <GridRow variant={"fullBleed"}>
+            <div class="md:!max-w-6xl mt-8 mb-8 mx-auto">
+                <div class="md:flex">
+                    <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
+                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/MKAX7WFAN5GDLJXNYTDEOUDD5A.jpg?&amp;w=1080');">
+                        </div>
+                    </div>
+                    <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
+                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/DXJJSHOM5JARROOOSDZEQ7XXPM.jpg?&amp;w=1080');">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-screen mx-auto max-w-[1800px] !max-w-6xl gap-y-5 pt-2 pb-4"><img alt="" data-chromatic="ignore" data-testid="InLineImage" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="object-cover h-auto w-full" src="https://arc.stimg.co/startribunemedia/BJXRANLULND5TKGZEP2UNFSSJ4.jpg?&amp;w=1080" style="color: transparent;">
+                <div class="!text-[#080808] font-utility-meta-reg-02 text-text-tertiary text-center mx-auto pt-4" style="max-width: 650px !important;">GROUP CAPTION 2</div>
+            </div>
+</GridRow>
+    <GridRow variant={"inline"} additionalClasses={"gap-y-5 pb-8"}>
+
 
 <Paragraph>
 “A lot of times we talk about family,” Henderson said. “These are like your sisters for 12 weeks. You’re going to fight and cry sometimes, and in the end, you’re going to fight for each other and cry for the good reasons.” 
