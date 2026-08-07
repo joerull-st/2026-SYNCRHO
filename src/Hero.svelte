@@ -124,17 +124,17 @@ May 22, 2026
     additionalClasses="xs:hidden md:block"
   >
               <h1
-              class="text-center font-[publico-banner-black] xl:text-[2.9rem] lg:text-[2.6rem] md:text-[2.6rem] xs:text-[1.75rem] !leading-[1.2] pt-6 max-w-[750px] mx-auto"
+              class="text-center font-[publico-banner-black] xl:text-[2.9rem] lg:text-[2.6rem] md:text-[2.6rem] xs:text-[1.75rem] !leading-[1.2] pt-10 max-w-[750px] mx-auto"
             >
               Below the surface of Stillwater’s
               synchronized swimming dynasty
             </h1>
     <Dek>
       <h2
-        class=" mr-auto ml-0 text-center font-[publico-headline-banner] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.5rem] xs:text-[1.15rem] pt-4 pb-8 !leading-[1.2] pt-6 pb-4"
+        class=" mx-auto text-center font-[publico-headline-banner] xl:text-[1.5rem] lg:text-[1.5rem] md:text-[1.5rem] xs:text-[1.15rem] pt-4 pb-8 !leading-[1.2] pt-6 pb-4 max-w-[550px]"
       >
-        One of Minnesota’s most dominant<br>
-        athletic programs can be found in<br>
+        One of Minnesota’s most dominant
+        athletic programs can be found in
         the deep end of the pool.
       </h2></Dek
     >
