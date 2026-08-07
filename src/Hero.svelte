@@ -69,7 +69,7 @@
         class="object-cover object-center absolute h-full w-full"
       >
         <source
-          src="https://d2rhwptr68oefh.cloudfront.net/wp-startribunemedia/20260806/6a74ae4aa9371f6ec4a66182/t_cf0f44585925456d9da8e4f9595f58bc_name_NEW_HERO_SWIM/file_1920x1080-5400-v4.mp4"
+          src="https://d2rhwptr68oefh.cloudfront.net/wp-startribunemedia/20260806/6a74ae4aa9371f6ec4a66182/t_ecfc70d28bc14ca18b930cc36f3a890f_name_SYNCHRO_muted/file_1920x1080-5400-v4.mp4"
           type="video/mp4"
         />Your browser does not support the video tag.
       </video>
