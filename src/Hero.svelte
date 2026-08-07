@@ -69,12 +69,12 @@
         class="object-cover object-left absolute h-full w-full"
       >
         <source
-          src="https://d2rhwptr68oefh.cloudfront.net/wp-startribunemedia/20260806/6a74ae4aa9371f6ec4a66182/t_ecfc70d28bc14ca18b930cc36f3a890f_name_SYNCHRO_muted/file_1920x1080-5400-v4.mp4"
+          src="https://d2rhwptr68oefh.cloudfront.net/wp-startribunemedia/20260806/6a74ae4aa9371f6ec4a66182/t_1cd8802a418b43de9208f19d97731e8b_name_SYNCHRO_HERO_FINAL/file_1920x1080-5400-v4.mp4"
           type="video/mp4"
         />Your browser does not support the video tag.
       </video>
 
-      <button
+      <!-- <button
         class="absolute right-4 bottom-4 z-40 bg-black/45 hover:bg-black/60 text-white rounded-full w-10 h-10 flex items-center justify-center transition-colors"
         aria-label={isMuted ? 'Unmute video' : 'Mute video'}
         onclick={toggleVideoMute}
@@ -84,7 +84,7 @@
         {:else}
           <VolumeIcon size={18} />
         {/if}
-      </button>
+      </button> -->
     </div>
   </GridRow>
   <GridRow>
@@ -95,8 +95,8 @@
       <h1
         class="max-w-[450px] mx-auto text-center font-[publico-banner-black] xl:text-[3.25rem] lg:text-[2.75rem] md:text-[2.5rem] xs:text-[2rem] pb-10 px-4 !leading-[1.05]"
       >
-        How Stillwater synchronized swimming
-        dominates Minnesota year after year
+              Below the surface of Stillwater’s
+              synchronized swimming dynasty
       </h1>
       <h2
         class="max-w-[350px] mx-auto text-center font-[publico-headline-light] xl:text-[1.75rem] lg:text-[1.5rem] md:text-[1.25rem] xs:text-[1.35rem] pb-6 px-4 !leading-[1.2]"
@@ -120,15 +120,14 @@ May 22, 2026
     </div>
   </GridRow>
 
-  <GridRow
+  <GridRow 
     additionalClasses="xs:hidden md:block"
   >
               <h1
-              class="ml-0 mr-auto text-center font-[publico-banner-black] xl:text-[2.9rem] lg:text-[2.6rem] md:text-[2.6rem] xs:text-[1.75rem] !leading-[1.2] pt-6"
+              class="text-center font-[publico-banner-black] xl:text-[2.9rem] lg:text-[2.6rem] md:text-[2.6rem] xs:text-[1.75rem] !leading-[1.2] pt-6 max-w-[750px] mx-auto"
             >
-              How Stillwater<br>synchronized
-              swimming<br>dominates Minnesota<br>
-              year after year
+              Below the surface of Stillwater’s
+              synchronized swimming dynasty
             </h1>
     <Dek>
       <h2
