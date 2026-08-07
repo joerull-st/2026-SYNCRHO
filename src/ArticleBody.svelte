@@ -89,11 +89,11 @@ Suddenly, one of the swimmers launched out of the water, twirled 1½ rotations i
             <div class="md:!max-w-6xl mt-8 mb-8 mx-auto">
                 <div class="md:flex">
                     <div class="mr-0 lg:w-1/2 md:w-full xs:w-full md:mr-2 xs:mr-0 xs:mb-2 md:mb-0">
-                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/LGJ44HK47VGSBL7MGRKZ7DSUS4.jpg?&amp;w=1080');">
+                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/C3QGFOAQ5JCGLNERSYKRJ63HJE.jpg?&amp;w=1080');">
                         </div>
                     </div>
                     <div class="md:ml-0 lg:w-1/2 md:w-full xs:w-full xs:ml-0">
-                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/C3QGFOAQ5JCGLNERSYKRJ63HJE.jpg?&amp;w=1080');">
+                        <div class="bg-no-repeat bg-cover bg-top !aspect-[1.4/1] mb-0 h-auto" style="background-image: url('https://arc.stimg.co/startribunemedia/LGJ44HK47VGSBL7MGRKZ7DSUS4.jpg?&amp;w=1080');">
                         </div>
                     </div>
                 </div>
