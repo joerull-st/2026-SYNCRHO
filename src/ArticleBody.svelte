@@ -176,7 +176,7 @@ Stamina is essential in this sport. Among other things, swimmers are judged by p
 </Paragraph>
 
 <Paragraph>
-The most difficult choreography takes place in the deep end. Swimmers want to get in and get out of the shallow end quickly because they can’t perform as many skills in that area.
+<a href="https://youtu.be/lBLEy5zUUfs">The most difficult choreography takes place in the deep end</a>. Swimmers want to get in and get out of the shallow end quickly because they can’t perform as many skills in that area.
 </Paragraph>
 
 <Paragraph>
