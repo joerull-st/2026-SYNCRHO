@@ -250,8 +250,8 @@ Swiper galleries will not loop correctly across all viewports if they contain fe
     </div>
 
     <div class="flex flex-row justify-end gap-1.5">
-      <IconButton icon="/svg/chevron-left.svg" additionalClasses={prevClass} />
-      <IconButton icon="/svg/chevron-right.svg" additionalClasses={nextClass} />
+      <IconButton icon="https://static.startribune.com/news/projects/all/2026-SYNCHRO/svg/chevron-left.svg" additionalClasses={prevClass} />
+      <IconButton icon="https://static.startribune.com/news/projects/all/2026-SYNCHRO/svg/chevron-right.svg" additionalClasses={nextClass} />
     </div>
   </div>
 </div>
